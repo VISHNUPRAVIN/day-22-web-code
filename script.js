@@ -1,5 +1,5 @@
 async function foo(){
-    var res=await fetch ("http://makeup-api.herokuapp.com/api/v1/products.json");
+    var res=await fetch ("https://makeup-api.herokuapp.com/api/v1/products.json");
     var result=await res.json();
     console.log(result);
     document.addEventListener("DOMContentLoaded",async()=>{
