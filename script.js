@@ -16,7 +16,7 @@ async function foo(){
        console.log(result);
     });
  
-     for(i=0;i<10;i++){
+     for(i=0;i<result.length;i++){
          let div=document.createElement("div");
          div.innerHTML=` <div class="container">
          <div class="row ">
